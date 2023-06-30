@@ -59,8 +59,9 @@
     height: 50px;
     line-height: 60px;
     text-align: center;
-    background-color:#ececf0;
-    font-weight: 800;
+    /* background-color:#ececf0; */
+    background-color:white;
+    /* font-weight: 800; */
     /* font-size: 30px; */
     color: #fff;
     position: absolute;
@@ -87,7 +88,7 @@
 }
 
 .serviceBox_2 .title_2{
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     font-weight: 600;
     color: white;
     padding-left: 30px;
