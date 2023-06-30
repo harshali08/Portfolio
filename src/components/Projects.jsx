@@ -4,7 +4,8 @@ import ProjCard from './ProjCard'
 const Projects = () => {
   return (
     <div className='my-6' style={{marginTop:"5rem"}}>
-    <h1 style={{color:"white",textAlign:"center"}}>Projects</h1>
+    <h1 style={{color:"white",textAlign:"center"}}>PROJECTS</h1>
+    <h3  style={{color:"#EBEBEB",textAlign:"center" ,marginTop:"50px"}}>Checkout Some of my Work 👇</h3>
     <div className='d-flex flex-row flex-wrap justify-content-center m-6 ' style={{marginTop:"3rem",marginLeft:"3.5rem",marginRight:"3.5rem"}}>
       <ProjCard s={require('../assets/Travel-website.png')} title={"Travel Website"} h={175} w={320} link={"https://travel-website-oaaqcp37w-harshalifarde-gmailcom.vercel.app/"} gitlink={'https://github.com/harshali08/Travel-Website'}  ></ProjCard>
       <ProjCard s={require('../assets/covid-tracker.png')} title={"Covid Tracker"} h={175} w={320} link={'https://covid-tracker-ox28lobd7-harshalifarde-gmailcom.vercel.app/'} gitlink={'https://github.com/harshali08/covid-tracker'}></ProjCard>

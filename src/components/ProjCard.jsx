@@ -10,7 +10,7 @@ const ProjCard = (props) => {
 
 
       <div className=" mx-4 my-3 " >
-            <div class="serviceBox_2" style={{height:'20rem'}}>
+            <div class="serviceBox_2 my-4 mx-3" style={{height:'20rem'}}>
                 <div class="service-icon_2 d-flex justify-content-center align-items-center"><a href={props.link}> <BsBoxArrowInUpRight fontSize={25}  color="black"></BsBoxArrowInUpRight></a></div>
                
                 <div class="service-content_2">
