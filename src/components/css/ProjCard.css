@@ -1,0 +1,127 @@
+.serviceBox_2{
+    /* padding-left: 30px; */
+    position: relative;
+    background-color: #1D1B39;
+    border-radius: 10px;
+    
+}
+.serviceBox_2:hover{
+    /* padding-left: 30px; */
+    position: relative;
+    background-color: #1D1B39;
+    border-radius: 10px;
+    border:1px solid white;
+    background-color: #0F0D28;
+}
+.serviceBox_2:before{
+    content: "";
+    width: 50px;
+    height: 50px;
+    background-color: #0F0D28;
+    position: absolute;
+    top: -15px;
+    right: -5px;
+    z-index: -1;
+    border-radius: 50%;
+}
+.serviceBox_2 .service-icon_2{
+    width: 50px;
+    height: 50px;
+    line-height: 60px;
+    text-align: center;
+    background-color: #0F0D28;
+    font-weight: 800;
+    /* font-size: 30px; */
+    color: #fff;
+    position: absolute;
+    /* overflow: hidden; */
+    /* top: -20px;
+    right: -10px; */
+    top: -15px;
+    right: -5px;
+    z-index: -1;
+    border-radius: 50%;
+}
+
+/* .serviceBox_2:before:hover{
+    content: "";
+    width: 50px;
+    height: 50px;
+    background-color:#bcbaba;
+    position: absolute;
+    top: -20px;
+    right: -10px;
+    z-index: 1;
+    border-radius: 50%;
+} */
+.serviceBox_2:hover .service-icon_2{
+    width: 50px;
+    height: 50px;
+    line-height: 60px;
+    text-align: center;
+    background-color:#ececf0;
+    font-weight: 800;
+    /* font-size: 30px; */
+    color: #fff;
+    position: absolute;
+    /* overflow: hidden; */
+    /* top: -20px;
+    right: -10px; */
+    top: -20px;
+    right: -15px;
+    z-index: 1;
+    border-radius: 50%;
+    transition: all 0.5s;
+    /* border: 2px solid black; */
+}
+
+
+.serviceBox_2 .service-content_2{
+    padding-bottom: 20px;
+    width:20rem;
+    border-width: 0.1rem;
+    /* border-style:ridge;
+    border-color:  #9463FF;
+    position: relative; */
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.serviceBox_2 .title_2{
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: white;
+    padding-left: 30px;
+    margin-top: 15px;
+    margin-bottom: 35px;
+    text-transform: capitalize;
+    transition: all 0.4s ease-in-out 0s;
+}
+/* .serviceBox_2:hover .title_2{
+    color: #fff;
+} */
+/* .serviceBox_2 .description_2{
+    font-size: 14px;
+    color: #858585;
+    margin: 0;
+} */
+.serviceBox_2 .read-more{
+    display: inline-block;
+    width: 32px;
+    height: 30px;
+    line-height: 30px;
+    background: #3f4147;
+    font-size: 20px;
+    font-weight: 900;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    right: -1px;
+    text-align: center;
+    transition: all 0.4s ease-in-out 0s;
+}
+.serviceBox_2 .read-more:hover{
+    background: #2a2b2c;
+}
+@media only screen and (max-width:990px){
+    .serviceBox_2{ margin-bottom: 50px; }
+}
