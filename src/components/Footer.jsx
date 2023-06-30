@@ -10,8 +10,6 @@ const Footer = () => {
         Copyright @2023 .made by 
           <a className="text-white m-2 text-decoration-none fw-bolder" href="https://github.com/harshali08">
           Harshali Farde  </a>
-          
-         
         </div>
       </footer>
     </div>
