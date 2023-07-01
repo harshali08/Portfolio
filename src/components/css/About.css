@@ -6,3 +6,18 @@
     margin-top:10px;
     padding:10px;
 }
+
+@media only screen and (max-width: 600px) {
+  .about-me li{
+      padding:0;
+    }
+    .tab{
+    margin-left:0;
+    /* width:140%; */
+    }
+
+    .comp{
+        width:80%;
+    }
+
+  }

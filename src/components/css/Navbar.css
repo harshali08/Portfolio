@@ -9,9 +9,13 @@
 }
 
 .navbar .nav-logo{
-  color: #c6d2fa;
-  font-size: 2rem;
+  color: white;
+  font-size: 2.5rem;
   /* font-family:'Courier New', Courier, monospace; */
-  font-weight: 800;
+  font-weight: 900;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.nav-link.active {
+  color: #9463FF !important;
 }

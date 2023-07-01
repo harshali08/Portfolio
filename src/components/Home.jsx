@@ -31,8 +31,8 @@ const Home = () => {
              </div>
             
            <div className='d-flex flex-row my-2'>
-             <button class="button-43 me-3" role="button"><a>Projects</a></button>
-             <button class="button-44" role="button"><a>Projects</a></button>
+             <button class="button-43 me-3" role="button"><a href='#projects'>Projects</a></button>
+             <button class="button-44" role="button"><a href='#about'>About Me</a></button>
              </div>
            
     

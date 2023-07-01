@@ -17,8 +17,9 @@ const ProjCard = (props) => {
                 <img src={props.s} height={170} style={{width:"100%", borderRadius:"10px"}}></img>
                 
                     <h4 class="title_2 my-3" style={{textAlign:"center"}}>{props.title}</h4>
-                    <div className="d-flex flex-row justify-content-center my-4">
-                    <button  class="read-more p-1"><a href={props.gitlink}>Source Code<PiGithubLogoFill color="black" fontSize={25}></PiGithubLogoFill></a></button>
+                    <div className="d-flex flex-row justify-content-center my-3">
+                    {/* <button  class="read-more p-1"><a href={props.gitlink}>Source Code<PiGithubLogoFill color="black" fontSize={25}></PiGithubLogoFill></a></button> */}
+                    <button class="read-more p-0 my-3" role="button"><a href={props.gitlink} >Source Code <PiGithubLogoFill color="white" fontSize={25}></PiGithubLogoFill></a></button>
                     </div>
                 </div>
             </div>

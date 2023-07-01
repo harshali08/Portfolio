@@ -19,7 +19,7 @@ const App = () => {
  <div >
     <Navbarr></Navbarr>
     <Home></Home>
-    <About></About>
+    {/* <About></About> */}
     <Skills></Skills>
     <Projects></Projects>
     <Footer></Footer>

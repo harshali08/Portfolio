@@ -7,16 +7,16 @@ import './css/Navbar.css'
 
 function Navbarr() {
   return (
-    <Navbar expand="lg" className="bg-tertiary navbar fixed-top"  >
+    <Navbar expand="lg" className="bg-tertiary navbar fixed-top mb-5"  >
       <Container >
-        <Navbar.Brand href="#home" className='nav-logo'>Harshali</Navbar.Brand>
+        <Navbar.Brand href="/" className='nav-logo'>Harshali</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto" >
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#home">About</Nav.Link>
-            <Nav.Link href="#home">Skills</Nav.Link>
-            <Nav.Link href="#home">Projects</Nav.Link>
+            <Nav.Link href="/">Home</Nav.Link>
+            <Nav.Link href="#about">About</Nav.Link>
+            <Nav.Link href="#skills">Skills</Nav.Link>
+            <Nav.Link href="#projects">Projects</Nav.Link>
             <Nav.Link href="#home">Contact</Nav.Link>
             {/* <Nav.Link href="#link">Link</Nav.Link> */}
             {/* <NavDropdown title="Dropdown" id="basic-nav-dropdown">

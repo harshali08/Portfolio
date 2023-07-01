@@ -46,7 +46,7 @@ export default function AboutComp() {
   };
 
   return (
-    <Box sx={{ width: '100%' }}>
+    <Box sx={{ width: '100%' }}  className='tab' >
       <Box sx={{ borderBottom: 1, borderColor: 'divider'}}>
         <Tabs value={value} onChange={handleChange} aria-label="basic tabs example">
           <Tab label="Education" {...a11yProps(0)} sx={{ color:'white' ,fontWeight:"bold",fontSize:"1.2rem",marginLeft:"20px"}}/>
