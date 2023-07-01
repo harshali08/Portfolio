@@ -7,7 +7,7 @@
     padding:10px;
 }
 
-@media only screen and (max-width: 600px) {
+@media (max-width: 600px) {
   .about-me li{
       padding:0;
     }
@@ -16,8 +16,15 @@
     /* width:140%; */
     }
 
-    .comp{
-        width:80%;
+    .tab-content{
+        margin: 0;
+        padding: 0;
+        font-size: 1rem;
+    }
+
+    .hello{
+        background-color: yellow;
+        
     }
 
   }
