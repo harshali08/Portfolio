@@ -6,7 +6,7 @@ const About = () => {
   return (
     <div id='about'   style={{paddingTop:"80px"}}>
     <div>
-    <h1 style={{color:"White",textAlign:"center",textShadow: "3px 3px #9463FF",fontWeight:"bolder", fontSize:"3rem"}} className='mb-5 '>About Me</h1>
+    <h1 style={{color:"White",textAlign:"center",textShadow: "3px 3px #9463FF",fontWeight:"bolder", fontSize:"3rem"}} className='mb-5 '>ABOUT ME</h1>
     <h3 style={{textAlign:"center",color:"#E1E1E1",marginTop:"2vh",marginBottom:"2vh"}}>Here you will find more information about me🙋‍♀️</h3>
 
     <div className='d-flex flex-row flex-wrap justify-content-center  '>

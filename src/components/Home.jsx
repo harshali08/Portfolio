@@ -24,7 +24,7 @@ const Home = () => {
             <a className="btn btn-outline-light btn-floating m-2 p-2" href="https://github.com/harshali08" role="button" >
               <FaGithub fontSize={25}/>
             </a>
-              <a className="btn btn-outline-light btn-floating m-2 p-2" href="mailto:harshalifarde@gmail.com" role="button" >
+              <a className="btn btn-outline-light btn-floating m-2 p-2" href="" role="button" >
               <MdOutlineMailOutline fontSize={25}/>
             </a>
 
