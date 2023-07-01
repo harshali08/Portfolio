@@ -6,7 +6,7 @@ const Projects = () => {
     <div id='projects' className='pt-3'>
     <div className='my-6' style={{marginTop:"5rem"}}>
     <h1 style={{color:"white",textAlign:"center",textShadow: "3px 3px #9463FF",fontWeight:"bolder", fontSize:"3rem"}}>PROJECTS</h1>
-    <h3  style={{color:"#EBEBEB",textAlign:"center" ,marginTop:"50px"}}>Checkout Some of my Work 👇</h3>
+    <h3  style={{color:"#EBEBEB",textAlign:"center" ,marginTop:"50px",color:"#E1E1E1"}}>Checkout Some of my Work 👇</h3>
     <div className='d-flex flex-row flex-wrap justify-content-center m-5 mt-2 ' style={{marginTop:"3rem",marginLeft:"3.5rem",marginRight:"3.5rem"}}>
       <ProjCard s={require('../assets/Travel-website.png')} title={"Travel Website"} h={175} w={320} link={"https://travel-website-oaaqcp37w-harshalifarde-gmailcom.vercel.app/"} gitlink={'https://github.com/harshali08/Travel-Website'}  ></ProjCard>
       <ProjCard s={require('../assets/covid-tracker.png')} title={"Covid Tracker"} h={175} w={320} link={'https://covid-tracker-ox28lobd7-harshalifarde-gmailcom.vercel.app/'} gitlink={'https://github.com/harshali08/covid-tracker'}></ProjCard>

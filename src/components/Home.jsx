@@ -8,7 +8,7 @@ const Home = () => {
   return (
      <>
       <div className='d-flex flex-row flex-wrap justify-content-center home mb-5'>
-        <div className='ms-5 my-5'>
+        <div className='ms-5 mt-5'>
              <div >
               <h4 className='domain'>Hii I'm</h4>
               <h1 className='name'>Harshali Farde</h1>
@@ -18,13 +18,13 @@ const Home = () => {
              <div className='d-flex flex-row justify-content-left mt-5'>
               
            
-            <a className="btn btn-outline-light btn-floating m-2 p-2" href="#!" role="button">
+            <a className="btn btn-outline-light btn-floating m-2 p-2" href="https://www.linkedin.com/in/4768a421a/" role="button">
               <FaLinkedinIn fontSize={25}/>
             </a>
-            <a className="btn btn-outline-light btn-floating m-2 p-2" href="#!" role="button" >
+            <a className="btn btn-outline-light btn-floating m-2 p-2" href="https://github.com/harshali08" role="button" >
               <FaGithub fontSize={25}/>
             </a>
-              <a className="btn btn-outline-light btn-floating m-2 p-2" href="#!" role="button" >
+              <a className="btn btn-outline-light btn-floating m-2 p-2" href="mailto:harshalifarde@gmail.com" role="button" >
               <MdOutlineMailOutline fontSize={25}/>
             </a>
 
