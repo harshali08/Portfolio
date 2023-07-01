@@ -7,7 +7,7 @@ import { FaFacebookF, FaTwitter, FaGoogle, FaInstagram, FaLinkedinIn, FaGithub, 
 const Home = () => {
   return (
      <>
-      <div className='d-flex flex-row flex-wrap justify-content-around home'>
+      <div className='d-flex flex-row flex-wrap justify-content-center home mb-5'>
         <div className='ms-5 my-5'>
              <div >
               <h4 className='domain'>Hii I'm</h4>
@@ -18,13 +18,13 @@ const Home = () => {
              <div className='d-flex flex-row justify-content-left mt-5'>
               
            
-            <a className="btn btn-outline-light btn-floating m-1 p-2" href="#!" role="button">
+            <a className="btn btn-outline-light btn-floating m-2 p-2" href="#!" role="button">
               <FaLinkedinIn fontSize={25}/>
             </a>
-            <a className="btn btn-outline-light btn-floating m-1 p-2" href="#!" role="button">
+            <a className="btn btn-outline-light btn-floating m-2 p-2" href="#!" role="button" >
               <FaGithub fontSize={25}/>
             </a>
-              <a className="btn btn-outline-light btn-floating m-1 p-2" href="#!" role="button">
+              <a className="btn btn-outline-light btn-floating m-2 p-2" href="#!" role="button" >
               <MdOutlineMailOutline fontSize={25}/>
             </a>
 
