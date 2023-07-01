@@ -7,24 +7,23 @@
     padding:10px;
 }
 
-@media (max-width: 600px) {
-  .about-me li{
-      padding:0;
+@media only screen and (max-width: 600px) {
+    .left-side {
+     margin-left: 0;
     }
+    .left-side img{
+        width:400px;
+    }
+
+    .right-side{
+        width:80%;
+    }
+    .about-me{
+        font-size: 20px;
+    }
+
     .tab{
-    margin-left:0;
-    /* width:140%; */
+        font-size: 0.9rem;
+        margin-left: 0;
     }
-
-    .tab-content{
-        margin: 0;
-        padding: 0;
-        font-size: 1rem;
-    }
-
-    .hello{
-        background-color: yellow;
-        
-    }
-
   }

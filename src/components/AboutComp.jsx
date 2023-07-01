@@ -17,7 +17,7 @@ function TabPanel(props) {
       {...other}
     >
       {value === index && (
-        <Box sx={{ p: 1 ,color:"white"}}>
+        <Box sx={{ p: 3 ,color:"white"}}>
           <Typography>{children}</Typography>
         </Box>
       )}
@@ -46,31 +46,29 @@ export default function AboutComp() {
   };
 
   return (
-    
-    <Box sx={{ width: '100%' }}  className='tab' >
+    <Box sx={{ width: '100%' }}>
       <Box sx={{ borderBottom: 1, borderColor: 'divider'}}>
-        <Tabs value={value} onChange={handleChange} aria-label="basic tabs example" className='px-5'>
-          <Tab label="Education" {...a11yProps(0)} className="tab-content" sx={{ color:'white' ,fontWeight:"bold",fontSize:"1.2rem",marginLeft:"20px"}}/>
-          <Tab label="Work" {...a11yProps(1)} className="tab-content" sx={{ color:'white',fontWeight:"bold",fontSize:"1.2rem",marginLeft:"20px"}}/>
+        <Tabs value={value} onChange={handleChange} aria-label="basic tabs example">
+          <Tab label="Education" {...a11yProps(0)} className='tab' sx={{ color:'white' ,fontWeight:"bold",fontSize:"1.1rem",marginLeft:"10px"}}/>
+          <Tab label="Work" {...a11yProps(1)} className='tab' sx={{ color:'white',fontWeight:"bold",fontSize:"1.1rem",marginLeft:"15px"}}/>
         
         </Tabs>
       </Box>
-      <TabPanel value={value} index={0} sx={{margin:'0'}}>
-     <div className='about-me'>
-      <h5> Currently  I'm  pursuing B.E. in Information technology from University of Mumbai🎓.</h5>
-      <h5>  I'm full stack developer👩‍💻 with great knowledge of MERN stack.</h5>
-      <h5> I'm also familiar with C/C++ and python programming languages 💯</h5>
-           </div>
+      <TabPanel value={value} index={0}>
+     <ul className='about-me p-0'>
+      <li> Currently  I'm  pursuing B.E. in Information technology from University of Mumbai🎓.</li>
+      <li>  I'm full stack developer👩‍💻 with great knowledge of MERN stack.</li>
+      <li> I'm also familiar with C/C++ and python programming languages 💯</li>
+           </ul>
 
       </TabPanel>
       <TabPanel value={value} index={1}>
-     <div>
-      <h5> Currently  I'm  working as a Frontend Web Developer Intern at Techuristic Organization 👩‍💻 .</h5>
-    <h5>I have explored different technologies and some of my work is below in the projects 👇</h5>
-    </div> 
+      <ul className='about-me p-0'>
+      <li> Currently  I'm  working as a Frontend Web Developer Intern at Techuristic Organization 👩‍💻 .</li>
+    <li>I have explored different technologies and some of my work is below in the projects 👇</li>
+           </ul>
       </TabPanel>
      
     </Box>
   );
 }
-
