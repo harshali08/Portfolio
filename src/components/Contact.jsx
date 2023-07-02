@@ -1,48 +1,34 @@
-import React, { useState, useRef } from 'react'
-// import '../components/css/Contact.css'
-// import Footer from '../components/Footer'
-// import ReCAPTCHA from 'react-google-recaptcha';
-// import Navbarr from "../components/Navbarr";
+import React from 'react'
+import './css/Contact.css'
+import { BsFillSendFill } from "react-icons/bs";
 
 const Contact = () => {
-
-   
-   
-    return (
-        <>
-            <div className=' pb-2 m-0' id='contact'  style={{paddingTop:"90px"}}>
-            <div  className=' mb-6' > <h1 className='mt-2' style={{textAlign:"center",color:"white",marginTop:"10vh",marginBottom:"5vh",textShadow: "3px 3px #9463FF",fontWeight:"bolder", fontSize:"3rem"}}>CONTACT</h1>
+  return (
+    <div id='contact' style={{paddingTop:"80px"}}>
+    <h1 style={{color:"White",textAlign:"center",textShadow: "3px 3px #9463FF",fontWeight:"bolder", fontSize:"3rem"}} className='mb-5 '>CONTACT</h1>
+    <h3 style={{textAlign:"center",color:"#E1E1E1",marginTop:"2vh",marginBottom:"2vh"}}>Here you will find more information about me🙋‍♀️</h3>
+<div className='d-flex justify-content-center mt-5 '>
+<form >
+<div class="mb-3" style={{backgroundColor:"1D1B39"}}>
+  <label for="exampleFormControlInput1" class="form-label mx-2 my-2" style={{color:"white",fontWeight:"bold",fontSize:"1.2rem"}}>Name</label>
+  <input type="name" class="form-control mx-2" style={{width:'400px' ,backgroundColor:"#1D1B39",height:"3rem",border:'none',outline:"none",color:"white"}} id="exampleFormControlInput1" placeholder="name@example.com"/>
 </div>
-                  
-                <div className='d-flex  align-items-center justify-content-center py-3 my-0 bg-body' style={{ backgroundColor: '#0F0D28', width: '50%', margin: '0 auto', borderRadius: '10px'}}>
-
-                    <form className='form px-5 mx-2' style={{width:'100%'}}>
-                        <div className='fs-5 fw-semibold mt-4' style={{ color: 'white' }}>Your Name</div>
-                        <input className='my-2' type="text" name='name' style={{ backgroundColor: '#1D1B39', border:'none', outline: 'none',  width: '100%',height:"3.8rem" }} />
-
-                        <div className='fs-5 fw-semibold mt-4' style={{ color: 'white' }}>Your E-Mail</div>
-                        <input className='my-2' type="text" name='email'  style={{ backgroundColor: '#1D1B39', border:'none',outline: 'none',  width: '100%',height:"3.8rem" }}/>
-                      
-                        <div className='fs-5 fw-semibold mt-4' style={{color: 'white' }}>Message</div>
-                        <textarea rows='5' className='my-2' type="textarea" name='msg'  style={{ backgroundColor: '#1D1B39',border:'none', outline: 'none',  width: '100%',height:"8rem" }}/>
-                        <div className='d-flex justify-content-center pt-3' style={{}}><button type="button" className="btn fw-semibold fs-5 py-1 px-3" style={{ color: "#FFFFFF", backgroundColor: "#1D1B39", width: '20%' }} >Send</button></div>
-
-
-                    </form>
-
-                   
+ <div class="mb-3">
+  <label for="exampleFormControlInput1" class="form-label mx-2 my-2" style={{color:"white",fontWeight:"bold",fontSize:"1.2rem"}}>Email address</label>
+  <input type="email" class="form-control mx-2" style={{width:'400px' ,backgroundColor:"#1D1B39",height:"3rem",border:'none',outline:"none",color:"white"}} id="exampleFormControlInput1" placeholder="name@example.com"/>
 </div>
+<div class="mb-3">
+  <label for="exampleFormControlTextarea1" class="form-label mx-2 my-2" style={{color:"white",fontWeight:"bold",fontSize:"1.2rem"}}>Message</label>
+  <textarea class="form-control  mx-2" style={{width:'400px' ,backgroundColor:"#1D1B39",height:"8rem",border:'none',outline:"none",color:"white"}} id="exampleFormControlTextarea1" rows="3"></textarea>
+</div>
+<div>
+<button class="button-44 mx-2 px-1" style={{fontWeight:"bolder"}} role="button">Send <BsFillSendFill style={{marginLeft:'10px',marginTop:'3px',fontSize:"15px"}}></BsFillSendFill></button>
 
-              
-
-              
-
-            </div>
-         
-
-
-        </>
-    )
+</div>
+</form>
+    </div>
+    </div>
+  )
 }
 
 export default Contact

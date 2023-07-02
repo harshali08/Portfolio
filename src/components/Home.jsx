@@ -7,11 +7,11 @@ import { FaFacebookF, FaTwitter, FaGoogle, FaInstagram, FaLinkedinIn, FaGithub, 
 const Home = () => {
   return (
      <>
-      <div className='d-flex flex-row flex-wrap justify-content-center home mb-5'>
-        <div className='ms-5 mt-5'>
+      <div className='d-flex flex-row flex-wrap justify-content-center home mb-5 ' style={{width:'100%'}}>
+        <div className='ms-5 mt-1'>
              <div >
               <h4 className='domain'>Hii I'm</h4>
-              <h1 className='name'>Harshali Farde</h1>
+              <h1 className='name' data-text="Harshali Farde">Harshali Farde</h1>
               <h4 className='domain'>Full Stack Developer</h4>
               <p>sgyhuijhfdfg sdrftgyhuij esdrtfyuh fghj sdfghj styui sdfghjk qwertyuio zxcvbnmwertyu wertyuidfgh</p>
              </div>
@@ -37,7 +37,7 @@ const Home = () => {
            
     
         </div>
-        <div className=' my-5'>
+        <div className=' my-5 image_div'>
           <img src={require('../assets/About-me.png') } ></img>
         </div>
         

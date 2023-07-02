@@ -1,20 +1,24 @@
 .home{
     margin-top:20vh;
     color: white;
+    overflow-x: hidden;
 }
 
 .home .name{
     font-weight: bolder;
-    font-size: 4rem;
-    color: #9463FF;
+    font-size: 5rem;
+    color: #0F0D28;
     margin-left: 0;
+    color: #9463FF;
+   
+ 
 }
 
 .home .domain{
     font-weight: bold;
-    font-size: 2.3rem;
+    font-size: 2.5rem;
    
-    margin-left: 0;
+    margin-left: 6px;
 }
 
 
@@ -86,4 +90,25 @@
 a{
     text-decoration: none;
     color: white;
+}
+
+.image_div{
+  animation-name: imganimate;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+  transition: all .6s;
+}
+
+@keyframes imganimate {
+  0%{
+    transform: translateY(0px);
+  }
+  50%{
+    transform: translateY(-40px);
+  }
+  100%{
+    transform: translateY(0px);
+  }
+  
 }

@@ -19,3 +19,17 @@
 .nav-link.active {
   color: #9463FF !important;
 }
+
+.navbar-toggler-white {
+  color: white !important;
+}
+#basic-navbar-nav{
+  color:white;
+  
+}
+#basic-navbar-nav .navbar-toggler-icon{
+  color:white;
+}
+.custom-toggler .navbar-toggler-icon {
+  color: white;
+}
