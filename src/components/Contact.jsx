@@ -114,7 +114,7 @@ const Contact = () => {
           <div>
             <button
               type="submit"
-              class="button-44 mx-2 px-1"
+              class="cont-but mx-2 px-1"
               style={{ fontWeight: "bolder" }}
               role="button"
             >
