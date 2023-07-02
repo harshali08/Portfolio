@@ -37,6 +37,7 @@
  background-color: #0F0D28;
  width:177px;
  height: 177px;
+ cursor: pointer;
  }
 .serviceBox:before,
 .serviceBox:after{
