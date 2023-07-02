@@ -36,17 +36,9 @@ const Contact = () => {
       >
         CONTACT
       </h1>
-      <h3
-        style={{
-          textAlign: "center",
-          color: "#E1E1E1",
-          marginTop: "2vh",
-          marginBottom: "2vh",
-        }}
-      >
-        Here you will find more information about me🙋‍♀️
-      </h3>
-      <div className="d-flex justify-content-center mt-5 ">
+      <h3   style={{color:"#EBEBEB",textAlign:"center" ,marginTop:"50px",color:"#E1E1E1"}}>Love to here from you, Get in Touch👋</h3>
+
+      <div className="d-flex justify-content-center mt-3">
         <form onSubmit={sendEmail} ref={form}>
           <div class="mb-3" style={{ backgroundColor: "1D1B39" }}>
             <label

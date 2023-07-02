@@ -7,15 +7,16 @@ import { FaFacebookF, FaTwitter, FaGoogle, FaInstagram, FaLinkedinIn, FaGithub, 
 const Home = () => {
   return (
      <>
-      <div className='d-flex flex-row flex-wrap justify-content-center home mb-5 ' style={{width:'100%'}}>
-        <div className='ms-3 mt-1 '>
+     <div id='home' className='pt-3'>
+      <div className='d-flex flex-row flex-wrap justify-content-center home mb-5 pt-5 mt-5 mb-5' style={{width:'100%'}}>
+        <div className='ms-5 mt-5'>
              <div >
               <h4 className='domain'>Hii I'm</h4>
               <h1 className='name' data-text="Harshali Farde">Harshali Farde</h1>
               <h4 className='domain'>Full Stack Developer</h4>
-              <p className='m-2' style={{width:"480px"}}>I am a passionate developer love to build  beautiful ang engaging websites.I always explore to the new technologies and happy to learn new things.</p>
+              <p className='m-1' style={{width:"450px"}}>I am a passionate developer love to build  beautiful and engaging websites.I always explore to the new technologies and happy to learn new things.</p>
              </div>
-             <div className='d-flex flex-row justify-content-left mt-5'>
+             <div className='d-flex flex-row justify-content-left mt-2'>
               
            
             <a className="btn btn-outline-light btn-floating m-2 p-2" href="https://www.linkedin.com/in/4768a421a/" role="button">
@@ -39,10 +40,11 @@ const Home = () => {
            
     
         </div>
-        <div className=' my-5 image_div'>
+        <div className=' image_div' style={{marginTop:"95px"}}>
           <img src={require('../assets/About-me.png') } ></img>
         </div>
         
+      </div>
       </div>
      </>
   )
