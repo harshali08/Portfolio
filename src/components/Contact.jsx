@@ -9,12 +9,6 @@ const Contact = () => {
   function sendEmail(e) {
     e.preventDefault();
 
-    // emailjs.sendEmail('service_me489rq','template_zlvmtq4',e.target,'ib2ZAD9aFlJGP1DVL')
-    // .then((res)=>{
-    //   console.log(res)
-    // })(error)=>{
-    //   console.log(error)
-    // };
     emailjs.sendForm('service_me489rq', 'template_xgx6v7i', form.current, 'ib2ZAD9aFlJGP1DVL')
       .then((result) => {
           console.log(result.text);
