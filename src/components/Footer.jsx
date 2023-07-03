@@ -1,5 +1,6 @@
 import React from 'react';
 // import { FaFacebookF, FaTwitter, FaGoogle, FaInstagram, FaLinkedinIn, FaGithub } from 'react-icons/fa';
+import "./css/Footer.css";
 
 const Footer = () => {
   return (
@@ -8,7 +9,7 @@ const Footer = () => {
        
         <div className="text-center py-3" style={{backgroundColor: "#0F0D28" }}>
         ⒸCopyright 2023 .made by 
-          <a className="text-white m-2 text-decoration-none fw-bolder"  href="https://github.com/harshali08">
+          <a className="text-white m-2  fw-bolder footer-name"  href="https://github.com/harshali08">
          Harshali Farde  </a>
         </div>
       </footer>
