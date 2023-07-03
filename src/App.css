@@ -4,3 +4,15 @@ body{
     padding: 0;
     overflow-x: hidden;
 }
+
+
+::-webkit-scrollbar{
+    width: 5px;
+  }
+  ::-webkit-scrollbar-track{
+    background-color: rgb(131, 130, 130);
+  }
+  ::-webkit-scrollbar-thumb{
+    background-color:#9463FF;
+    border-radius: 50px;
+  }

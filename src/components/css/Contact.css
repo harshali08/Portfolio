@@ -1,3 +1,7 @@
+#contact{
+  overflow-x: hidden;
+}
+
 .cont-but{
     width:140px;
     height:50px;
@@ -6,17 +10,29 @@
   border:3px solid #6d2bfc;
   background-color: #0F0D28;
 
-  /* box-sizing: border-box; */
   color: #FFFFFF;
   display: flex;
   font-size: 20px;
   margin-top:3vh;
   justify-content: center;
   align-items: center;
-  /* padding: 0.5rem; */
   text-decoration: none;
   cursor: pointer;
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
+}
+
+.contact{
+  font-family: 'Kanit', sans-serif;;
+}
+
+.inputt{
+  width: 40vw;
+}
+
+@media (max-width: 768px) {
+  .inputt{
+    width: 70vw;
+  }
 }

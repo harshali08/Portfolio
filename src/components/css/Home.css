@@ -8,17 +8,19 @@
     font-weight: bolder;
     font-size: 5rem;
     color: #0F0D28;
-    margin-left: 0;
+    /* margin-left: 0; */
     color: #9463FF;
    
  
 }
 
+
+
 .home .domain{
     font-weight: bold;
     font-size: 2.5rem;
    
-    margin-left: 6px;
+    /* margin-left: 6px; */
 }
 
 
@@ -66,4 +68,51 @@ a{
     transform: translateY(0px);
   }
   
+}
+
+.home .left{
+  width:50%;
+}
+
+.home .right{
+  width:50%;
+}
+
+.home .right img{
+  height: 30rem;
+  width:40rem;
+}
+
+
+
+@media (max-width:768px){
+
+  .home{
+    flex-wrap: wrap;
+  }
+  .home .left{
+    width:100%;
+  }
+  
+  .home .right{
+    width:100%;
+  }
+
+  .home .right img{
+    height: 15rem;
+    width:21rem;
+  }
+  
+  .home .name{
+  
+    font-size: 4rem;
+  
+ 
+}
+.home .domain{
+ 
+  font-size: 2rem;
+ 
+ 
+}
 }

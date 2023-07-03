@@ -3,10 +3,10 @@ import SkillBox from './SkillBox'
 
 const Skills = () => {
   return (
-    <div id='skills' className='' style={{paddingTop:"100px"}}>
+    <div id='skills' className='' style={{paddingTop:"100px",width:'90%',margin:'0 auto'}}>
     <div  className=' mb-6' > <h1 className='mt-2' style={{textAlign:"center",color:"white",marginTop:"10vh",marginBottom:"5vh",textShadow: "3px 3px #9463FF",fontWeight:"bolder", fontSize:"3rem"}}>SKILLS</h1>
     <h3 style={{textAlign:"center",color:"white",marginTop:"2vh",marginBottom:"2vh",color:"#E1E1E1"}}>Here are Some of My Skills 🌟</h3>
-    <div className='d-flex flex-row flex-wrap justify-content-center ' style={{marginLeft:"3rem", marginRight:"3rem"}} >
+    <div className='d-flex flex-row flex-wrap justify-content-center mx-3' >
     <SkillBox s={require('../assets/Cplusplus.png')} title="C++" h={110} w={125}></SkillBox>
     <SkillBox s={require('../assets/Java.png')} title="Java" h={125} w={125}></SkillBox>
     <SkillBox s={require('../assets/Python.png')} title="Python" h={125} w={125}></SkillBox>

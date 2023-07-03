@@ -4,7 +4,7 @@ import "./css/About.css";
 
 const About = () => {
   return (
-    <div id="about" style={{ paddingTop: "80px" }}>
+    <div id="about" style={{ paddingTop: "80px" ,width:'90%',margin:'0 auto'}}>
       <div>
         <h1
           style={{
@@ -30,10 +30,10 @@ const About = () => {
         </h3>
 
         <div className="d-flex flex-row flex-wrap justify-content-center  ">
-          <div className="ms-3  left-side">
+          <div className="d-flex justify-content-center  left-side">
             <img src={require("../assets/home-page.png")}></img>
           </div>
-          <div style={{ width: "57%" }} className="me-0 mt-5 right-side">
+          <div className="me-0 mt-5 right-side">
             <AboutComp></AboutComp>
           </div>
         </div>

@@ -7,14 +7,14 @@ import { FaFacebookF, FaTwitter, FaGoogle, FaInstagram, FaLinkedinIn, FaGithub, 
 const Home = () => {
   return (
      <>
-     <div id='home' className='pt-3'>
-      <div className='d-flex flex-row flex-wrap justify-content-center home mb-5 pt-5 mt-5 mb-5' style={{width:'100%'}}>
-        <div className='ms-5 mt-5'>
+     <div id='home' className='pt-3 ' style={{width:'80%',margin:'0 auto'}}>
+      <div className='d-flex flex-row justify-content-center home mb-5 pt-5 mt-5 mb-5' style={{}}>
+        <div className=' mt-5  left' >
              <div >
               <h4 className='domain'>Hii I'm</h4>
               <h1 className='name' data-text="Harshali Farde">Harshali Farde</h1>
               <h4 className='domain'>Full Stack Developer</h4>
-              <p className='m-1' style={{width:"450px"}}>I am a passionate developer love to build  beautiful and engaging websites.I always explore to the new technologies and happy to learn new things.</p>
+              <p className='' style={{width:""}}>I am a passionate developer love to build  beautiful and engaging websites.I always explore to the new technologies and happy to learn new things.</p>
              </div>
              <div className='d-flex flex-row justify-content-left mt-2'>
               
@@ -31,7 +31,7 @@ const Home = () => {
 
              </div>
             
-           <div className='d-flex flex-row my-2'>
+           <div className='d-flex flex-row my-2 '>
              {/* <button class="button-43 me-3" role="button"><a href='#projects'>Projects</a></button> */}
              <button class="home-but me-3" role="button"><a href='#about'>About Me</a></button>
              <button class="home-but" role="button"><a href='#projects'>Projects</a></button>
@@ -40,8 +40,8 @@ const Home = () => {
            
     
         </div>
-        <div className=' image_div' style={{marginTop:"95px"}}>
-          <img src={require('../assets/About-me.png') } ></img>
+        <div className=' image_div d-flex justify-content-center right' style={{marginTop:"95px"}}>
+          <img src={require('../assets/About-me.png') }  ></img>
         </div>
         
       </div>
