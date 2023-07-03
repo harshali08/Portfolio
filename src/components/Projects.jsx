@@ -3,7 +3,7 @@ import ProjCard from './ProjCard'
 
 const Projects = () => {
   return (
-    <div id='projects' className='pt-3' style={{border:"1px solid red",width:'90%',margin:'0 auto'}}>
+    <div id='projects' className='pt-3' style={{width:'90%',margin:'0 auto'}}>
     <div className='my-6' style={{marginTop:"5rem"}}>
     <h1 style={{color:"white",textAlign:"center",textShadow: "3px 3px #9463FF",fontWeight:"bolder", fontSize:"3rem"}}>PROJECTS</h1>
     <h3  style={{color:"#EBEBEB",textAlign:"center" ,marginTop:"50px",color:"#E1E1E1"}}>Checkout Some of my Work 👇</h3>

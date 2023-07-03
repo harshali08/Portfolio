@@ -270,7 +270,7 @@ const Contact = () => {
     //     </form>
     //   </div>
     // </div>
-    <div className='p-3 contact' style={{ backgroundColor: "#121212",width:'90%',margin:'0 auto'}} id='contact'>
+    <div className='p-3 contact' style={{  backgroundColor: "#0F0D28",width:'90%',margin:'0 auto'}} id='contact'>
      <h1
         style={{
           color: "White",
@@ -292,9 +292,9 @@ const Contact = () => {
                         </div>
                         <div className="">
                             <form ref={form} onSubmit={sendEmail} className="" >
-                                <input type="text" placeholder="Enter your name" name="user_name" required className="inputt fs-4 my-3 p-2" style={{backgroundColor:'#121212',color:'#F2F3F4',border:'solid',borderWidth:'1px',borderColor:'#F2F3F4',borderRadius:'6px',outline:'none'}} /><br />
-                                <input type="email" placeholder="Enter your Email" name="user_email" required className="inputt fs-4 my-3 p-2" style={{backgroundColor:'#121212',color:'#F2F3F4',border:'solid',borderWidth:'1px',borderColor:'#F2F3F4',borderRadius:'6px',outline:'none'}} /><br />
-                                <textarea placeholder="Enter your message" name="message" required rows={6} className="inputt fs-4 my-3 p-2" style={{backgroundColor:'#121212',color:'#F2F3F4',border:'solid',borderWidth:'1px',borderColor:'#F2F3F4',borderRadius:'6px',outline:'none'}} ></textarea><br />
+                                <input type="text" placeholder="Enter your name" name="user_name" required className="inputt fs-4 my-3 p-2" style={{backgroundColor: "#0F0D28",color:'#F2F3F4',border:'solid',borderWidth:'1px',borderColor:'#F2F3F4',borderRadius:'6px',outline:'none'}} /><br />
+                                <input type="email" placeholder="Enter your Email" name="user_email" required className="inputt fs-4 my-3 p-2" style={{backgroundColor: "#0F0D28",color:'#F2F3F4',border:'solid',borderWidth:'1px',borderColor:'#F2F3F4',borderRadius:'6px',outline:'none'}} /><br />
+                                <textarea placeholder="Enter your message" name="message" required rows={6} className="inputt fs-4 my-3 p-2" style={{backgroundColor: "#0F0D28",color:'#F2F3F4',border:'solid',borderWidth:'1px',borderColor:'#F2F3F4',borderRadius:'6px',outline:'none'}} ></textarea><br />
                                 {/* <button type='submit' value="Send" className='px-5 py-2 mx-4 my-2 mb-4 fs-5 fw-semibold me-5' style={{backgroundColor:'#fc2569',color:'white',border:'none',borderRadius:'5px',fontFamily:'Kanit'}} >Submit</button> */}
                                 <div className="d-flex justify-content-center">
           <button
