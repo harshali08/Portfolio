@@ -19,7 +19,7 @@ const Skills = () => {
    
     <SkillBox s={require('../assets/Node Js.png')} title="NodeJs" h={110} w={130}></SkillBox>
     
-    <SkillBox s={require('../assets/expressjs.png')} title="ExpressJs" h={90} w={90}></SkillBox>
+    <SkillBox s={require('../assets/Express js.png')} title="ExpressJs" h={90} w={90}></SkillBox>
     <SkillBox s={require('../assets/Mongodb.png')} title="MongoDB" h={125} w={125}></SkillBox>
     <SkillBox s={require('../assets/git.png')} title="Git" h={110} w={110}></SkillBox>
     <SkillBox s={require('../assets/github.png')} title="GitHub" h={125} w={125}></SkillBox>
