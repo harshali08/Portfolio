@@ -13,7 +13,8 @@ const Projects = () => {
       <ProjCard s={require('../assets/digital-clock.png')} title={"Digital Clock"} h={175} w={319} link={"https://digital-clock-seven-eta.vercel.app/"} gitlink={'https://github.com/harshali08/digital_clock'}></ProjCard>
       <ProjCard s={require('../assets/temp-converter.png')} title={"Temperature Converter"} h={175} w={319} link={'https://temp-converter-bice.vercel.app/'} gitlink={'https://github.com/harshali08/Temp-Converter'}></ProjCard>
       <ProjCard s={require('../assets/to-do-list.png')} title={"To-Do App"} h={175} w={319} link={"https://to-do-list-woad-nine.vercel.app/"} gitlink={'https://github.com/harshali08/to-do-list'}></ProjCard>
-   
+         <ProjCard s={require('../assets/note-keeping-app.png')} title={"Note-Keeping-App"} h={175} w={319} link={"https://note-keeping-app-eta.vercel.app/"} gitlink={'https://github.com/harshali08/note-keeping-app'}></ProjCard>
+
     </div>
     </div>
     </div>
