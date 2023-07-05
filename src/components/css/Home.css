@@ -15,7 +15,6 @@
 }
 
 
-
 .home .domain{
     font-weight: bold;
     font-size: 2.5rem;
@@ -72,6 +71,8 @@ a{
 
 .home .left{
   width:50%;
+  margin-top: 7vh;
+ 
 }
 
 .home .right{
@@ -114,5 +115,8 @@ a{
   font-size: 2rem;
  
  
+}
+.home .left{
+  margin-top: 0vh;
 }
 }

@@ -9,7 +9,7 @@ const Home = () => {
      <>
      <div id='home' className='pt-3 ' style={{width:'80%',margin:'0 auto'}}>
       <div className='d-flex flex-row justify-content-center home mb-5 pt-5 mt-5 mb-5' style={{}}>
-        <div className=' mt-5  left' >
+        <div className='left' >
              <div >
               <h4 className='domain'>Hii I'm</h4>
               <h1 className='name' data-text="Harshali Farde">Harshali Farde</h1>
