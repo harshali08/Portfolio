@@ -32,3 +32,12 @@
 .custom-toggler .navbar-toggler-icon {
   color: white;
 }
+
+@media (max-width:768px){
+  .navbar .nav-logo {
+   
+    font-size: 2rem;
+  
+   
+  }
+}
