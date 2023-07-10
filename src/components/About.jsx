@@ -30,10 +30,10 @@ const About = () => {
         </h3>
 
         <div className="d-flex flex-row flex-wrap justify-content-center  ">
-          <div className="d-flex justify-content-center  left-side">
+          <div className="d-flex justify-content-center  left-side ">
             <img src={require("../assets/home-page.png")}></img>
           </div>
-          <div className="me-0 mt-5 right-side">
+          <div className="me-0 mt-5 right-side ">
             <AboutComp></AboutComp>
           </div>
         </div>
