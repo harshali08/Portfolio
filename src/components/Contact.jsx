@@ -9,13 +9,14 @@ const Contact = () => {
   function sendEmail(e) {
     e.preventDefault();
 
-    emailjs.sendForm('service_me489rq', 'template_xgx6v7i', form.current, 'ib2ZAD9aFlJGP1DVL')
+    emailjs.sendForm('service_me489rq', 'template_fztkv9v', form.current, '3nn9S3fsYaM3VZT7i')
       .then((result) => {
           console.log(result.text);
       }, (error) => {
           console.log(error.text);
       });
       e.target.reset()
+      // alert("Message sent Successfully😊")
   }
   return (
     // <div id="contact" style={{ paddingTop: "80px",border:"1px solid red" }}>
@@ -181,3 +182,5 @@ const Contact = () => {
 };
 
 export default Contact;
+
+
