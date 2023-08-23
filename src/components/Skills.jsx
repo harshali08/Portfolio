@@ -8,8 +8,8 @@ const Skills = () => {
     <h3 style={{textAlign:"center",color:"white",marginTop:"2vh",marginBottom:"2vh",color:"#E1E1E1"}}>Here are Some of My Skills 🌟</h3>
     <div className='d-flex flex-row flex-wrap justify-content-center mx-3' >
     <SkillBox s={require('../assets/Cplusplus.png')} title="C++" h={110} w={125}></SkillBox>
-    <SkillBox s={require('../assets/Java.png')} title="Java" h={125} w={125}></SkillBox>
-    <SkillBox s={require('../assets/Python.png')} title="Python" h={125} w={125}></SkillBox>
+    {/* <SkillBox s={require('../assets/Java.png')} title="Java" h={125} w={125}></SkillBox> */}
+    {/* <SkillBox s={require('../assets/Python.png')} title="Python" h={125} w={125}></SkillBox> */}
     <SkillBox s={require('../assets/HTML.png')} title="HTML" h={125} w={125}></SkillBox>
     <SkillBox s={require('../assets/CSS.png')} title="CSS" h={125} w={125}></SkillBox>
     <SkillBox s={require('../assets/JS.png')} title="Javascript" h={90} w={80}></SkillBox>
@@ -23,7 +23,7 @@ const Skills = () => {
     <SkillBox s={require('../assets/Mongodb.png')} title="MongoDB" h={125} w={125}></SkillBox>
     <SkillBox s={require('../assets/git.png')} title="Git" h={110} w={110}></SkillBox>
     <SkillBox s={require('../assets/github.png')} title="GitHub" h={125} w={125}></SkillBox>
-    <SkillBox s={require('../assets/Linux.png')} title="Linux" h={110} w={110}></SkillBox>
+    {/* <SkillBox s={require('../assets/Linux.png')} title="Linux" h={110} w={110}></SkillBox> */}
     <SkillBox s={require('../assets/figma.png')} title="Figma" h={90} w={90}></SkillBox>
     </div>
     </div>
