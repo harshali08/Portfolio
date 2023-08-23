@@ -13,6 +13,21 @@
     width:58%;
 }
 
+@media only screen and (max-width:1440px) {
+    .left-side {
+     margin-left: 0;
+    }
+   
+.left-side img{
+    width:520px;
+    height: 410px;
+    margin-top: 55px;
+}
+    .right-side{
+        width:50%;
+    }
+  
+  }
 
 
 
@@ -48,29 +63,6 @@
   
   }
 
-  @media only screen and (max-width: 650px) {
-    .left-side {
-     margin-left: 0;
-    }
-    .left-side img{
-        margin-top: 0;
-        width:500px;
-    }
-
-    .right-side{
-        width:100%;
-    }
-    .about-me{
-        font-size: 19px;
-    }
-
-    .tab{
-        font-size: 0.6rem;
-        margin-left: 0;
-    }
-
-    
-  }
 
   @media only screen and (max-width: 500px) {
     .left-side {
@@ -90,7 +82,7 @@
     }
 
     .tab{
-        font-size: 0.6rem;
+        font-size: 0.8rem;
         margin-left: 0;
     }
 

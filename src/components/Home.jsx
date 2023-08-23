@@ -19,13 +19,13 @@ const Home = () => {
              <div className='d-flex flex-row justify-content-left mt-2'>
               
            
-            <a className="btn btn-outline-light btn-floating m-2 p-2" href="https://www.linkedin.com/in/4768a421a/" role="button">
+            <a className="btn btn-outline-light btn-floating m-2 p-2" href="https://www.linkedin.com/in/4768a421a/" target='_blank' role="button">
               <FaLinkedinIn fontSize={25}/>
             </a>
-            <a className="btn btn-outline-light btn-floating m-2 p-2" href="https://github.com/harshali08" role="button" >
+            <a className="btn btn-outline-light btn-floating m-2 p-2" href="https://github.com/harshali08" target='_blank' role="button" >
               <FaGithub fontSize={25}/>
             </a>
-              <a className="btn btn-outline-light btn-floating m-2 p-2" href="mailto:harshalifarde@gmail.com" role="button" >
+              <a className="btn btn-outline-light btn-floating m-2 p-2" href="mailto:harshalifarde@gmail.com" target='_blank' role="button" >
               <MdOutlineMailOutline fontSize={25}/>
             </a>
 
